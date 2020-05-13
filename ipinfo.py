@@ -4,7 +4,6 @@ import socketserver
 import threading
 import _thread
 import socket
-import requests
 import os
 
 
